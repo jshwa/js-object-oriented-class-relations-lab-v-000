@@ -1,3 +1,5 @@
+let store = {drivers: [], passengers: [], trips: []}
+
 let driver_id = 0;
 
 class Driver {
