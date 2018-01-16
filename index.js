@@ -20,6 +20,7 @@ class Driver {
     return this.trips().map(function (trip) {
       return trip.passenger()
     })
+  }
 }
 
 let passenger_id = 0;
