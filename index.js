@@ -37,6 +37,6 @@ class Trip {
   passenger(){
     store.passengers.find(function (passenger) {
       return passenger.id === this.passengerId
-    }).bind(this)
+    }.bind(this))
   }
 }
