@@ -9,10 +9,6 @@ class Driver {
 
     store.drivers.push(this);
   }
-
-  trips() {
-
-  }
 }
 
 let passenger_id = 0;
